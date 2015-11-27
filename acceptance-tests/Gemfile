@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# A sample Gemfile
+source "http://rubygems.org"
+
+# gem "rails"
+
+gem 'cucumber', '~> 2.1'
+gem 'capybara', '2.5.0'
+gem 'w3c_validators'
+gem 'savon'
+gem 'phantomjs', '~> 1.9', '>= 1.9.8.0'
+gem 'poltergeist', '~> 1.8', '>= 1.8.1'
+gem 'test-unit'
+gem 'net-ssh'
+gem 'json'
+gem 'rspec'
+gem 'relish'

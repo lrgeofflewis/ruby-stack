@@ -6,7 +6,7 @@ provisonwithyum.sh - is the older code that uses yum to install ruby
 
 once the environment is built it is set up with
 '''
-ruby 2.1.4
+ruby 2.2.3
 bundler
 phantomJS 1.9.8
 '''

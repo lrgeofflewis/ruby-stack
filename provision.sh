@@ -8,8 +8,8 @@ gpg2 --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
 curl -L get.rvm.io | bash -s stable
 source /etc/profile.d/rvm.sh
 echo "installs ruby with RVM"
-rvm install 2.1.4
-rvm use 2.1.4 --default
+rvm install 2.2.3
+rvm use 2.2.3 --default
 
 gem install bundler
 

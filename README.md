@@ -1,16 +1,19 @@
-This environment is just to test a working stack of ruby for acceptance tests
+# This environment is just to test a working stack of ruby for acceptance tests
 
 provision.sh - uses RVM to install ruby
+
 provisonwithyum.sh - is the older code that uses yum to install ruby
 
 once the environment is built it is set up with
+'''
 ruby 2.1.4
 bundler
-phatomJS 1.9.8
-
+phantomJS 1.9.8
+'''
 to enter the VM
+'''
 vagrant ssh
-
+'''
 navigate to /vagrant/acceptance-tests
 run command 'bundle install' which installs all the gem files
 
